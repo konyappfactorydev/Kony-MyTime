@@ -1,0 +1,29 @@
+{
+    "AS_Segment_ee4b1c6f673048a1bbf496bd158fd86a": {
+        "id": "AS_Segment_ee4b1c6f673048a1bbf496bd158fd86a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmCalendarView",
+            "type": "forms",
+            "platform": "windows8",
+            "KUID": "7ac8b34802d54f0e814d28ab54534c53"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onRowClick_287055d17e204c2485c0f40975380fc4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "(new kony.apps.coe.ess.myTime.CalendarViewUI()).CopyWeekTimesheet();",
+            "callbackType": null
+        }]
+    }
+}

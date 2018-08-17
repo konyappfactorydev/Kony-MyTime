@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_85d17a7359df43c7966d13c30376a182": {
+        "id": "AS_FlexContainer_85d17a7359df43c7966d13c30376a182",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCalendarView",
+            "type": "forms",
+            "platform": "windows8",
+            "KUID": "7ac8b34802d54f0e814d28ab54534c53"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_a2e50f5071ed4e3992288b3c409ec4d1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "(new kony.apps.coe.ess.myTime.CalendarViewUI()).updateSegment(1);\n",
+            "callbackType": null
+        }]
+    }
+}

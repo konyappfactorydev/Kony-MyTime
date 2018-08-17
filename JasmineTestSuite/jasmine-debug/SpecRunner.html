@@ -1,0 +1,308 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Jasmine Spec Runner</title>
+
+  <link rel="stylesheet" type="text/css" href="jasmineLib/jasmine.css">
+  <script type="text/javascript" src="jasmineLib/jasmine.js"></script>
+  <script type="text/javascript" src="jasmineLib/jasmine-html.js"></script>
+  <script type="text/javascript" src="jasmineLib/jasmine.phantomjs-reporter.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+  <script> var IndexJL =0;	</script>
+  
+  <!-- include kony source files here... -->
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyinit.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konysystem.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyutils.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/core/konyJSUtils.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyapi.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konywidgets.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konynetwork.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyi18n.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/core/konyJSMapping.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/core/konyapplication.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/application.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyappmenu.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyboxwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konybrowserwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konybuttonwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konycalendarwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konycheckboxgroup.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konycomboboxgroup.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyconstants.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyconstcommon.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konycore.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konycrypto.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konydatabaseapi.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konydatagridwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konydatastoreapi.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyformwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konygeolocationapi.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyHorizontalImageGallerywidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyHorizontalImagewidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyhybridapi.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyimagewidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konylabelwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konylinewidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konylinkwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konylistboxgroup.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konymapwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konymathapi.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konymediawidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konymodel.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyosapi.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyphone.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyphoneapi.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konypickerview.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konypickerwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konypopup.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyradiobuttongroup.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyrichtextwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyscrollboxwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyscrollerwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konysegmentwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konysliderwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyslotviewwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konystringapi.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyswitchwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konytableapi.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konytabwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konytextareawidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konytextfieldwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konytextfieldautocomplete.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konytextfieldpassword.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konythemesapi.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konytimerapi.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konytouchwidgets.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyvboxwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyanimations.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/core/konyapplication.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyflexscrollcontainerwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyflexcontainerwidget.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyflexlayoutengine.js"></script>  
+  
+  <!--Kony UI js code -->
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiBaseClasses.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiBasicWidgets.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiBox.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiFlex.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiBrowser.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiCalendar.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiDataGrid.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiForm.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiGroupWidgets.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiHorizontalImageStrip.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiImage.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiImageGallery.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiMap.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiMenuContainer.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiPopup.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiRichText.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiScrollBox.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiSegmentedUI.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiSlider.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiTabPane.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiText.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiVideo.js"></script>
+  <script type="text/javascript" src="../jasmine-lib/konyLib/konyJSLib/ui/konyuiFlexContainer.js"></script>
+  
+  <!--Kony UI js code -->
+
+  <!-- include app specific files here... -->
+  
+<script type="text/javascript" src="../../PlanAndTrack/modules/A1kony_sdk.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/A2konymvvm_sdk.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/addDynamicFlx.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/animation.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/animationLogin.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/appMenuServiceManager.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/appMenuWidgets.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/appMenuWidgetsConfig.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/appPropertiesServiceManager.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/AppserviceMangerInterface.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/appVersion.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/AuthenticationServiceManager.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BaseFactory.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_AddressModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_AddressModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_AssetModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_AssetModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_AssetTypeModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_AssetTypeModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_CityModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_CityModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_ContactModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_ContactModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_CountryModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_CountryModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_CustomerModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_CustomerModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_ASSET_ADDRESSModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_ASSET_ADDRESSModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_CONT_ADDRESSModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_CONT_ADDRESSModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_CONT_MISCModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_CONT_MISCModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_CRTXModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_CRTXModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_CUST_ADDRESSModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_CUST_ADDRESSModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_EQUIP_CLASSModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_EQUIP_CLASSModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_MAT_MISCModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_MAT_MISCModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_PLANT_SLOC_MATERIALModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_PLANT_SLOC_MATERIALModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_T003OModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_T003OModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_T003PModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_T003PModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_T006AModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_T006AModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_T006TModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_T006TModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_TQ80_TModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_TQ80_TModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_WO_MAT_SERIALModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_WO_MAT_SERIALModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_WO_MATModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_WO_MATModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_WO_PRTModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_WO_PRTModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_WO_STATUS_HISTModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_EAM_WO_STATUS_HISTModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_FunctionalLocationModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_FunctionalLocationModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_LocationModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_LocationModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_MaterialModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_MaterialModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_NotificationTypeModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_NotificationTypeModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_OrderAssetModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_OrderAssetModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_PriorityModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_PriorityModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_RegionModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_RegionModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_StatusModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_StatusModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_StatusTypeModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_StatusTypeModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_StopWatchModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_StopWatchModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_StorageLocationModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_StorageLocationModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_SystemUserModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_SystemUserModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_SystemUserWOModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_SystemUserWOModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_TaskModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_TaskModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_UnitModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_UnitModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_WorkCenterModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_WorkCenterModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_WorkCenterWOModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_WorkCenterWOModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_WorkOrderContactModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_WorkOrderContactModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_WorkOrderHistoryModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_WorkOrderHistoryModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_WorkOrderModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_WorkOrderModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_WorkOrderPriorityModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/BPTService_WorkOrderPriorityModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/ConfigurationServiceManager.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/CustomFormControllerExtensionMF.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/flxAnimation.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/FormServiceManager.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/frmListKAConfig.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/frmListKAController.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/frmListKAControllerExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/frmListKAFormModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/frmListKAFormModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/frmDetailsKAConfig.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/frmDetailsKAController.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/frmDetailsKAControllerExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/frmDetailsKAFormModel.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/frmDetailsKAFormModelExtension.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/gestureOnFlx.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/KonyAppFoundationLibraryAppInitV2.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/KonyAppInit.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/konylibrary.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/konyLoginV2.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/KonySyncLib.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/localAuthentication.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/manualSync.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/map.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/mbaasconfig.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/Menu.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/MetadataFetcher.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/MetadataServiceManager.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/momentTimezone.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/oauthSalesforce.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/QueryManager.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/RecordTypesLib.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/ServicesConstants.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/servicesExceptionCodes.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/servicesUtility.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/StuioUtils.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/SyncManager.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/TAGNavigationController.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/TransitionDefinitionsAndroid.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/transitionDefinitionsiPadVA.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/TransitionDefinitionsiPhone.js"></script> 
+<script type="text/javascript" src="../../PlanAndTrack/modules/Utils.js"></script>
+
+
+
+
+  <!-- include jasmine related files here... -->
+  <script type="text/javascript" src="../jasminetests/mockedSyncDP.js"></script>
+  <script type="text/javascript" src="../jasminetests/sql.js"></script>
+  <script type="text/javascript" src="../jasminetests/mockedData.js"></script>
+  <script type="text/javascript" src="../jasminetests/mockedMetaData.js"></script>
+  <script type="text/javascript" src="../jasminetests/mockedViews.js"></script>
+  <script type="text/javascript" src="../jasminetests/testUtility.js"></script>
+  <script type="text/javascript" src="../jasminetests/testCases.js"></script>
+  <script type="text/javascript" src="../jasminetests/jquery.i18n.properties.js"></script>
+  <script type="text/javascript" src="../jasminetests/konyOverridingMethods.js"></script>
+  
+  
+  <script type="text/javascript">
+    (function() {
+      var jasmineEnv = jasmine.getEnv();
+      jasmineEnv.updateInterval = 1000;
+
+      var htmlReporter = new jasmine.HtmlReporter();
+	jasmine.getEnv().addReporter(new jasmine.PhantomJSReporter());
+      jasmineEnv.addReporter(htmlReporter);
+
+      jasmineEnv.specFilter = function(spec) {
+        return htmlReporter.specFilter(spec);
+      };
+
+      var currentWindowOnload = window.onload;
+
+      window.onload = function() {
+        if (currentWindowOnload) {
+          currentWindowOnload();
+        }
+        execJasmine();
+      };
+
+      function execJasmine() {
+        jasmineEnv.execute();
+      }
+
+    })();
+  </script>
+
+</head>
+
+<body>
+</body>
+</html>
