@@ -8,7 +8,6 @@
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "reUsableLoginForm",
             "type": "forms",
             "platform": "",
             "KUID": "ccf4a7b9a231491faa856f48ca2c328d"

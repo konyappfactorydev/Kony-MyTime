@@ -11,7 +11,6 @@
             "name": "context"
         }],
         "contextObj": {
-            "name": "tmpListDetailsDatesDW",
             "type": "templates",
             "platform": "",
             "KUID": "c96322c09da94f888f522f2119255d87"

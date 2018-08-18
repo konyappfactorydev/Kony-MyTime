@@ -29,7 +29,8 @@
             "mappingsOrder": [],
             "parentId": "",
             "callbackType": null,
-            "enableMappingEditor": true
+            "enableMappingEditor": true,
+            "package": ""
         }]
     }
 }

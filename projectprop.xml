@@ -1,5 +1,5 @@
 <properties>
-    <attributes name="apmformExit" value="true"/>
+    <attributes name="apmformExit" value="false"/>
     <attributes name="cloud_web_xml_custom_filters" value=""/>
     <attributes name="wp81spublisherdisplaynamekey" value="KonyLabs"/>
     <attributes name="SET_WALLPAPER_HINTS" value="false"/>
@@ -51,7 +51,7 @@
     <attributes name="wp10applogokey" value=""/>
     <attributes name="Text_Messaging" value="true"/>
     <attributes name="win8bgagentnamespace" value=""/>
-    <attributes name="apmgestureswipe" value="true"/>
+    <attributes name="apmgestureswipe" value="false"/>
     <attributes name="appnamekey" value="MyTime"/>
     <attributes name="currentgaversion" value="7.2.1.GA_v201703071202_r3"/>
     <attributes name="wp10sharedUserCertificates" value="false"/>
@@ -92,7 +92,7 @@
     <attributes name="ACCOUNT_MANAGER" value="false"/>
     <attributes name="wp10internetClientServer" value="false"/>
     <attributes name="windesktop_allowselfsignedcertificate" value="None"/>
-    <attributes name="apmtouchorclick" value="true"/>
+    <attributes name="apmtouchorclick" value="false"/>
     <attributes name="enablecharts2d3diphone" value="false"/>
     <attributes name="internetClientServer" value="true"/>
     <attributes name="activityattrs" value=""/>
@@ -130,7 +130,7 @@
     <attributes name="KILL_BACKGROUND_PROCESSES" value="false"/>
     <attributes name="andmanifesttags" value="&lt;permission android:name=&quot;andro.jf.mypermission&quot; android:protectionLevel=&quot;normal&quot;/&gt; &lt;uses-permission android:name=&quot;andro.jf.mypermission&quot;/&gt;  "/>
     <attributes name="BIND_APPWIDGET" value="false"/>
-    <attributes name="apmservicerequest" value="true"/>
+    <attributes name="apmservicerequest" value="false"/>
     <attributes name="Internet(Client)" value="true"/>
     <attributes name="wp10packagepublichernamekey" value="KonyLabs"/>
     <attributes name="SELECTED_THEME" value="default"/>
@@ -188,7 +188,7 @@
     <attributes name="winphn10bgagentnamespace" value=""/>
     <attributes name="DISABLE_KEYGUARD" value="false"/>
     <attributes name="certs_ssl_algorithm" value="TLS"/>
-    <attributes name="apmorientationchange" value="true"/>
+    <attributes name="apmorientationchange" value="false"/>
     <attributes name="tcbb360basefontsize" value="12"/>
     <attributes name="winsmoothscrollkey" value="true"/>
     <attributes name="DELETE_PACKAGES" value="false"/>

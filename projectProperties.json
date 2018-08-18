@@ -2,6 +2,7 @@
     "APPLICATION_THEME": "default",
     "accountCloudGuid": "5d005816-04e8-44ce-8f0b-15bfdecddcd2",
     "appaddrkey": "",
+    "appidkey": "MyTime",
     "appmenu": {
         "desktop": {
             "data": [
@@ -168,10 +169,10 @@
     },
     "createdVizVersion": "7.0.0",
     "createdgaversion": "7.0.0",
-    "currentgaversion": "7.3.0.7",
+    "currentgaversion": "8.2.0",
     "defaultlocalekey": "en_US",
     "defaulttheme": "defaultTheme",
-    "desktopstartupformkey": "frmLoginDesk",
+    "desktopstartupformkey": "aacbef6d018a4a86a55a5188d78727b5",
     "desktopwebbasefontsize": "12",
     "enableCordova": false,
     "enableIdForAutomation": true,
@@ -187,15 +188,39 @@
     "isA11yConfigEnabled": false,
     "isDpScaleFactor": true,
     "isNewAppWithRespectToAndroidPackageName": "",
-    "konyVizVersion": "7.3.0.7",
-    "mfappguid": {
-        "147abad9-e5d0-4108-ab0b-70743455dc49": "09f20ae7-1f81-4b34-ba97-ac70dba06232",
-        "5d005816-04e8-44ce-8f0b-15bfdecddcd2": "c8408d49-43a5-40e3-a981-64a8cbede05e",
-        "68dce0d6-ca64-4db3-a594-a8d2745feb91": "0ac26b7c-6053-4ca6-811f-e323224d6a7d",
-        "90e318ca-286d-4176-ac06-2d3a54712733": "91c0826f-8a1d-452a-8919-ce0b572e01f6",
-        "d88520ac-a1e2-4f8e-8d3b-d8d384db0ee0": "58cf8b21-10eb-4a75-9735-813841dfa511",
-        "b406fd79-21e8-4357-9453-80f051440fd9": "107e100a-d972-4928-99bf-60aa98b3299b"
+    "kfAppInfo": {
+        "147abad9-e5d0-4108-ab0b-70743455dc49": {
+            "baseId": "09f20ae7-1f81-4b34-ba97-ac70dba06232",
+            "id": "09f20ae7-1f81-4b34-ba97-ac70dba06232",
+            "version": "1.0"
+        },
+        "5d005816-04e8-44ce-8f0b-15bfdecddcd2": {
+            "baseId": "c8408d49-43a5-40e3-a981-64a8cbede05e",
+            "id": "c8408d49-43a5-40e3-a981-64a8cbede05e",
+            "version": "1.0"
+        },
+        "68dce0d6-ca64-4db3-a594-a8d2745feb91": {
+            "baseId": "0ac26b7c-6053-4ca6-811f-e323224d6a7d",
+            "id": "0ac26b7c-6053-4ca6-811f-e323224d6a7d",
+            "version": "1.0"
+        },
+        "90e318ca-286d-4176-ac06-2d3a54712733": {
+            "baseId": "91c0826f-8a1d-452a-8919-ce0b572e01f6",
+            "id": "91c0826f-8a1d-452a-8919-ce0b572e01f6",
+            "version": "1.0"
+        },
+        "b406fd79-21e8-4357-9453-80f051440fd9": {
+            "baseId": "107e100a-d972-4928-99bf-60aa98b3299b",
+            "id": "107e100a-d972-4928-99bf-60aa98b3299b",
+            "version": "1.0"
+        },
+        "d88520ac-a1e2-4f8e-8d3b-d8d384db0ee0": {
+            "baseId": "58cf8b21-10eb-4a75-9735-813841dfa511",
+            "id": "58cf8b21-10eb-4a75-9735-813841dfa511",
+            "version": "1.0"
+        }
     },
+    "konyVizVersion": "8.2.0",
     "mwaddrkey": "",
     "mwhttpsportkey": "",
     "mwportkey": "",
@@ -207,7 +232,7 @@
     },
     "project.type": "js",
     "projectCloudGuid": "372953d5-4750-4e64-b8b9-0135005191d8",
-    "project_version": "sprint27",
+    "project_version": "sprint31",
     "prototype": {
         "createdBy": "Parveen Chahal",
         "createdById": "89d10ec0-5d4b-412f-8067-1b42a3936065",
@@ -216,9 +241,9 @@
         "shareGuid": "SYSA6"
     },
     "referenceWidth": "375",
-    "startupformkey": "frmDummy",
+    "startupformkey": "95853c29a0994234b534fc42ef1a52e8",
     "statusBarHidden": "false",
-    "tabletstartupformkey": "frmLogin",
+    "tabletstartupformkey": "3ebc9c095c904e74b868f83592a41d44",
     "vendornamekey": "KonyLabs",
     "wap_android240_fontsize": "12",
     "wap_android320_fontsize": "12",
@@ -242,16 +267,16 @@
     "wap_spawindowstab_fontsize": "12",
     "wap_winphone320_fontsize": "12",
     "wap_winphone480_fontsize": "12",
+    "watchos_companionSettings2x29": "",
+    "watchos_companionSettings3x29": "",
+    "watchos_homeScreen40": "",
     "watchos_longlooknotificationicon_38": "",
     "watchos_longlooknotificationicon_42": "",
     "watchos_notificationcentericon_38": "",
     "watchos_notificationcentericon_42": "",
     "watchos_shortlooknotificationicon_38": "",
     "watchos_shortlooknotificationicon_42": "",
-    "winmobileguidkey": "",
-    "watchos_companionSettings3x29": "",
-    "watchos_homeScreen40": "",
-    "watchos_companionSettings2x29": "",
     "watchos_watchMarketing1x": "",
-    "appidkey": "MyTime"
+    "winmobileguidkey": "",
+    "watchStartUpFormKey": "e4fb7cb289994109ae980e440896eacc"
 }

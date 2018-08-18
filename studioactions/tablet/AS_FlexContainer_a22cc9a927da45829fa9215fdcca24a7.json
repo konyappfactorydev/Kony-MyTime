@@ -7,7 +7,6 @@
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "frmLogin",
             "type": "forms",
             "platform": "windows8",
             "KUID": "744546e6bb664ae8a0ab8c2a2dfb1bcc"
