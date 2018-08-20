@@ -16,8 +16,7 @@
                 "name": "successCallback"
             }],
             "parentId": null,
-            "callbackType": null,
-            "source": "module"
+            "callbackType": null
         }]
     }
 }

@@ -400,7 +400,7 @@
     <attributes name="enablesearchbar" value="false"/>
     <attributes name="tcandroid480basefontsize" value="12"/>
     <attributes name="WRITE_SETTINGS" value="false"/>
-    <attributes name="cloud_account_guid" value="147abad9-e5d0-4108-ab0b-70743455dc49"/>
+    <attributes name="cloud_account_guid" value="047da162-d5b8-4088-af89-0f280b71528e"/>
     <attributes name="statusBarHidden" value="false"/>
     <attributes name="andmaxsdkkey" value="None"/>
     <attributes name="wp10chat" value="false"/>
@@ -428,7 +428,7 @@
     <attributes name="wp8packagepublisheridkey" value=""/>
     <attributes name="location" value="false"/>
     <attributes name="winphn10bgagentclassname" value=""/>
-    <attributes name="cloud_url" value="https://empselfservice2.konycloud.com"/>
+    <attributes name="cloud_url" value="https://mobilefabric-demo.konycloud.com"/>
     <attributes name="disablehttpskey" value="false"/>
     <attributes name="Music_Library" value="true"/>
     <attributes name="Location" value="true"/>
@@ -467,11 +467,11 @@
     <attributes name="win8bgagentpath" value=""/>
     <attributes name="ID_CAP_IDENTITY_USER" value="true"/>
     <attributes name="wp10voipCall" value="false"/>
-    <attributes name="cloud_env_GUID" value="bd2b981c-82ed-4e82-be52-8aa093b4f8b8"/>
+    <attributes name="cloud_env_GUID" value="f624671f-9244-42e8-a143-809a3e0e7aaf"/>
     <attributes name="androidInstallLocnPref" value="false"/>
     <attributes name="android_allowselfsignedcertificates" value="None"/>
     <attributes name="userAccountInformation" value="false"/>
-    <attributes name="cloud_env_name" value="Apps Dev 1-Emp Self Service 2"/>
+    <attributes name="cloud_env_name" value="Kony Cloud MobileFabric-MobileFabric"/>
     <attributes name="tcbb480basefontsize" value="12"/>
     <attributes name="SET_PREFERRED_APPLICATIONS" value="false"/>
     <attributes name="WP8_ID_CAP_MICROPHONE" value="true"/>
@@ -539,7 +539,7 @@
     <attributes name="wp81spackagedisplaynamekey" value="myTime"/>
     <attributes name="windowsmapkey" value=""/>
     <attributes name="bb10keystorepassword" value=""/>
-    <attributes name="cloud_account_id" value="100017816"/>
+    <attributes name="cloud_account_id" value="100003520"/>
     <attributes name="Enterprise_Authentication" value="true"/>
     <attributes name="BATTERY_STATS" value="false"/>
     <attributes name="internetClient" value="true"/>

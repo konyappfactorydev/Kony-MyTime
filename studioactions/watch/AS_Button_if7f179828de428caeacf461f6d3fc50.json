@@ -1,0 +1,18 @@
+{
+    "AS_Button_if7f179828de428caeacf461f6d3fc50": {
+        "id": "AS_Button_if7f179828de428caeacf461f6d3fc50",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "FormController",
+            "name": "form"
+        }],
+        "contextObj": {
+            "name": "Form0je94363d07ab43",
+            "type": "forms",
+            "platform": null,
+            "KUID": "i367883587af43dd8dbad9256f847d3e"
+        },
+        "language": "swift",
+        "actions": []
+    }
+}

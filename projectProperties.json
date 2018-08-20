@@ -253,5 +253,6 @@
     "watchos_homeScreen40": "",
     "watchos_companionSettings2x29": "",
     "watchos_watchMarketing1x": "",
-    "appidkey": "MyTime"
+    "appidkey": "MyTime",
+    "watchStartUpFormKey": "Form0je94363d07ab43"
 }
