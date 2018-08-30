@@ -11,11 +11,11 @@
     <pluginInfo version-no="8.2.0.v201804042035" plugin-id="com.kony.viz.ide" plugin-name="Visualizer Integration Plugin"/>
     <pluginInfo version-no="8.0.0.v201709081322" plugin-id="com.kony.studio.cloud" plugin-name="Kony Studio Cloud Integration"/>
     <pluginInfo version-no="8.3.0.v201807311451" plugin-id="com.kony.fpreview" plugin-name="Kony Functional Preview Plugin"/>
-    <pluginInfo version-no="8.3.0.v201808221619" plugin-id="com.kony.studio.viz.api" plugin-name="StudioViz API"/>
-    <pluginInfo version-no="8.3.0.v201808221619" plugin-id="com.kony.studio.viz.chrome.api" plugin-name="StudioViz Chrome API"/>
-    <pluginInfo version-no="8.3.0.v201808221619" plugin-id="com.kony.studio.viz.chrome.mac64" plugin-name="StudioViz Chrome"/>
-    <pluginInfo version-no="8.3.0.v201808221619" plugin-id="com.kony.studio.viz.core.mac64" plugin-name="StudioViz Core"/>
-    <pluginInfo version-no="8.3.0.v201808221619" plugin-id="com.kony.studio.viz.nodejs.mac64" plugin-name="StudioViz NodeJS"/>
+    <pluginInfo version-no="8.3.0.v201808300620" plugin-id="com.kony.studio.viz.api" plugin-name="StudioViz API"/>
+    <pluginInfo version-no="8.3.0.v201808300620" plugin-id="com.kony.studio.viz.chrome.api" plugin-name="StudioViz Chrome API"/>
+    <pluginInfo version-no="8.3.0.v201808300620" plugin-id="com.kony.studio.viz.chrome.mac64" plugin-name="StudioViz Chrome"/>
+    <pluginInfo version-no="8.3.0.v201808300620" plugin-id="com.kony.studio.viz.core.mac64" plugin-name="StudioViz Core"/>
+    <pluginInfo version-no="8.3.0.v201808300620" plugin-id="com.kony.studio.viz.nodejs.mac64" plugin-name="StudioViz NodeJS"/>
     <pluginInfo version-no="8.2.0.v201804121726" plugin-id="com.kony.reference.architecture" plugin-name="Reference Architecture"/>
     <pluginInfo version-no="8.3.0.v201808212032" plugin-id="com.pat.tabrcandroid" plugin-name="Tablet Android"/>
     <pluginInfo version-no="8.3.0.v201808212032" plugin-id="com.pat.android" plugin-name="Android"/>
