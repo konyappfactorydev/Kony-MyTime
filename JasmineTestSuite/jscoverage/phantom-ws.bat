@@ -1,1 +1,0 @@
-phantomjs  --local-to-remote-url-access=yes ../jasmine-lib/run-jscover-jasmine2.js http://localhost:9090/JasmineTestSuite/jasmine-lib/kony_jasmine_test_runner.html

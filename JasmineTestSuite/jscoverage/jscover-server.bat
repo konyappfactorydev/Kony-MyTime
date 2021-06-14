@@ -1,1 +1,0 @@
-java -jar lib/JSCover-all.jar -ws --report-dir=report/jscoverage-phantomjs --document-root=../.. --no-instrument=JasmineTestSuite --no-instrument=../../modules/kony_sdk.js --port=9090

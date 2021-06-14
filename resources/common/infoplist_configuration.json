@@ -1,5 +1,20 @@
+
 {
-	"LSApplicationQueriesSchemes" : [
-		"myLeave","myTime","myPay","myProfile","myExpenses","myApprovals"
-	]
+/*
+    "NSAppTransportSecurity" :
+    {
+        "NSAllowsArbitraryLoads" : true ,
+        "NSExceptionDomains" :
+            {
+                "example.com" :
+                    {
+                        "NSIncludesSubdomains" : true ,
+                        "NSExceptionAllowsInsecureHTTPLoads" : true
+                    }
+            }
+    } ,
+ 
+    "NSCameraUsageDescription" : "This is a dummy description"
+*/
 }
+

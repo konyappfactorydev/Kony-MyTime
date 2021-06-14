@@ -1,46 +1,38 @@
 {
     "splashScreen": {
-        "mobile": {
-            "iphone": {
-                "splashImage": "splash.png"
-            },
-            "android": {
-                "splashImage": "splash.png",
-                "backgroundColor": "2abaee"
-            },
-            "winphone8": {},
-            "spa": {},
-            "spaip": {},
-            "spaan": {},
-            "spabb": {},
-            "spawinphone8": {},
-            "splashImage": "splash.png"
-        },
-        "tablet": {
-            "ipad": {
-                "landscape": {
-                    "splashImage": "splashland.png"
-                },
-                "splashImage": "splashland.png"
-            },
-            "android": {
-                "splashImage": "splashland.png"
-            },
-            "windows8": {
-                "backgroundColor": "2ebaee"
-            },
-            "spa": {},
-            "spaipad": {},
-            "spaandroidtablet": {},
-            "spawindowstablet": {},
-            "windows10": {
-                "backgroundColor": "2ebaee"
-            },
-            "splashImage": "splashland.png"
-        },
         "desktop": {
             "desktopweb": {},
             "kiosk": {}
+        },
+        "mobile": {
+            "android": {},
+            "iphone": {
+                "splashConfig": {
+                    "_skin_": "sfdec638d1934120b79212cedd738711",
+                    "children": []
+                }
+            },
+            "spa": {},
+            "spaan": {},
+            "spaip": {},
+            "spawinphone8": {},
+            "winphone10": {},
+            "winphone8": {}
+        },
+        "tablet": {
+            "android": {},
+            "ipad": {
+                "landscape": {},
+                "splashConfig": {
+                    "_skin_": "sfdec638d1934120b79212cedd738711",
+                    "children": []
+                }
+            },
+            "spa": {},
+            "spaandroidtablet": {},
+            "spaipad": {},
+            "spawindowstablet": {},
+            "windows8": {}
         }
     }
 }
