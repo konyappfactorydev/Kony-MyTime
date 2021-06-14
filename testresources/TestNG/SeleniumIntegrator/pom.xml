@@ -9,7 +9,7 @@
   </parent>
   <groupId>com.kony.jasUserCode</groupId>
   <artifactId>JasUserTest</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>JasUserTest</name>
   <url>http://maven.apache.org</url>
   <properties>
