@@ -8,8 +8,8 @@ define(["Test Cases/testCase1_data"], function() {
     		// :End User Injected Code Snippet {2ce691df-2d15-9c25-e1de-cbdf8b1161a5}
 			kony.automation.button.click(["OauthSamp/Form1","btn"]);
 			// :User Injected Code Snippet [// - [2 lines]]
-		    kony.automation.webSocket.sendMessage({ "eventName": "performLogin"});
-		    await kony.automation.webSocket.waitForMessage({ "eventName":"performLoginDone"});
+		    kony.automation.webSocket.sendMessage({ "eventName": "enterUsername"});
+		    await kony.automation.webSocket.waitForMessage({ "eventName":"executionDone"});
 		    // :End User Injected Code Snippet {935e8708-19f8-0401-a025-8b89c89d30a9}
 		    expect(kony.automation.widget.getWidgetProperty(["Form1","lbl"], "text")).toEqual(_data.assert.lbl);
 		});
