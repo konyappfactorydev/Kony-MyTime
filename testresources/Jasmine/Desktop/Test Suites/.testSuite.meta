@@ -1,0 +1,11 @@
+{
+    "groupName": "Test Suites",
+    "testSuiteName": "testSuite",
+    "testCaseInfo": [
+        {
+            "testcaseName": "testCase1.js",
+            "selectedDataset": "dataset"
+        }
+    ],
+    "usedBy": []
+}
