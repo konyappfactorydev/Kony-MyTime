@@ -51,11 +51,11 @@ public class SeleniumUserCode implements SeleniumInteraction {
                 WebElement element = driver.findElement(By.xpath("//input[name = login && title = Email Address]"));
                 element.sendKeys("dinesh.gioe@gmail.com");
                 System.out.println("Entered the user name");
-                WebElement element = driver.findElement(By.xpath("//input[name = password && title = 'Password']"));
+                element = driver.findElement(By.xpath("//input[name = password && title = 'Password']"));
                 element.sendKeys("Rivert@9866");
                 System.out.println("Entered the Password");
 
-                WebElement element = driver.findElement(By.xpath("//input[name = login_submit && title = 'Authorize']"));
+                element = driver.findElement(By.xpath("//input[name = login_submit && title = 'Authorize']"));
                 element.click();
                 System.out.println("Clicked on Login and waiting");
 
@@ -66,7 +66,7 @@ public class SeleniumUserCode implements SeleniumInteraction {
                     return false;
                 }
 
-                WebElement element = driver.findElement(By.xpath("//button[title = Grant access to Box && value = Grant access to Box]"));
+                element = driver.findElement(By.xpath("//button[title = Grant access to Box && value = Grant access to Box]"));
                 element.click();
                 System.out.println("Granting Access");
 
