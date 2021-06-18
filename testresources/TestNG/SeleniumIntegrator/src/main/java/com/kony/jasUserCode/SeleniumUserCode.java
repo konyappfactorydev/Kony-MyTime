@@ -32,7 +32,6 @@ public class SeleniumUserCode implements SeleniumInteraction {
             e.printStackTrace();
         }
 
-        System.out.println("Sending the success message back to the server");
         return eventDetails;
     }
 
