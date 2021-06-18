@@ -18,11 +18,7 @@ public class SeleniumUserCode implements SeleniumInteraction {
         boolean eventStatus = false;
         try {
             if(jsonObject.get("eventName").equals("enterUsername")) {
-                System.out.println("Calling the enter UserName method  ----  ");
-                eventStatus = enterUsername();
-            }
-            if(jsonObject.get("eventName").equals("TestsCompleted")) {
-                System.out.println("Calling the enter TestsCompleted method  ----  ");
+                System.out.println("Calling the Method to enter the user credentials  ----  ");
                 eventStatus = enterUsername();
             }
         } catch (JSONException e) {
