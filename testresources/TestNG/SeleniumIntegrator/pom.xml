@@ -8,9 +8,9 @@
     <version>1.0.0</version>
   </parent> -->
   <groupId>com.kony.jasUserCode</groupId>
-  <artifactId>JasUserTest</artifactId>
+  <artifactId>SeleniumIntegrator</artifactId>
   <version>1.0.0</version>
-  <name>JasUserTest</name>
+  <name>SeleniumIntegrator</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
