@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 public interface CrossAppClientInterface {
     public JSONObject onMessage(JSONObject jsonObject);
     public void onInitWebDriver(WebDriver webDriver);
-    default Map<String, String> getDriverCapabilities() {
-        return new HashMap<String, String>();
+    default Map<String, Object> getDriverCapabilities() {
+        return new HashMap<String, Object>();
     }
 }
