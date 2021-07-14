@@ -55,20 +55,38 @@ public class CrossAppClient implements CrossAppClientInterface {
         for(String windo : tabs2) {
             driver.switchTo().window(windo);
             System.out.println("Title of the app is - " + driver.getTitle());
-            if(driver.getTitle().equals("TestDW")) {
+            if(driver.getTitle().equals("Customer Log In")) {
 
-                WebElement element = driver.findElement(By.xpath("/html/body/div[2]/form/div[2]/input[1]"));
+                WebElement element = driver.findElement(By.xpath("//input[@name='login' and @title='Email Address']"));
+                element.sendKeys("dinesh.gioe@gmail.com");
+                System.out.println("Entered the user name");
+                element = driver.findElement(By.xpath("//input[@name='password' and @title='Password']"));
+                element.sendKeys("Rivert@9866");
+                System.out.println("Entered the Password");
 
-                element.sendKeys("test@harsha.com");
+                element = driver.findElement(By.xpath("//input[@name='login_submit' and @title='Authorize']"));
+                element.click();
+                System.out.println("Clicked on Login and waiting");
 
                 try {
-                    Thread.sleep(3000);
+                    Thread.sleep(5000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                     return false;
                 }
-                System.out.println("Closing the child app");
-                driver.close();
+
+                element = driver.findElement(By.xpath("//button[@title='Grant access to Box' and @value='Grant access to Box']"));
+                element.click();
+                System.out.println("Granting Access");
+
+                try {
+                    Thread.sleep(8000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                    return false;
+                }
+                //System.out.println("Closing the child app");
+                //driver.close();
                 System.out.println("Switching to the Parent App");
                 driver.switchTo().window(tabs2.get(0));
             }
