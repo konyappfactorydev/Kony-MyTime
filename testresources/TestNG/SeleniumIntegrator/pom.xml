@@ -37,5 +37,10 @@
        <artifactId>json</artifactId>
        <version>20210307</version>
     </dependency>
+    <dependency>
+       <groupId>com.kony.appfactory.ws</groupId>
+       <artifactId>CrossAppClient</artifactId>
+       <version>9.3.0</version>
+    </dependency>
   </dependencies>
 </project>
