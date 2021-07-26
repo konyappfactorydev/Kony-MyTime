@@ -1,5 +1,9 @@
 define(["Test Cases/testCase1_data"], function() {
 	describe("testSuite", function() {
+		it("DelayTest", async function() {
+                     await kony.automation.playback.wait(750000);
+		}, 900000);
+		
 		it("testCase1", async function() {
 			var _data = testcaseData_1623318108958.dataset;
 			await kony.automation.playback.waitFor(["OauthSamp/Form1","btn"]);
